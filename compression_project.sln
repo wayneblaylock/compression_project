@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression", "Compression\Compression.csproj", "{760B01C8-5E75-489A-BAE1-0E71E0D5279C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression.Main", "Compression.Main\Compression.Main.csproj", "{6EB55DD3-029C-4A83-BEA2-A7021CC51054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression.Test", "Compression.Test\Compression.Test.csproj", "{BB5025EB-FCCD-4DAE-B9B4-3DD95F3887F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{760B01C8-5E75-489A-BAE1-0E71E0D5279C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760B01C8-5E75-489A-BAE1-0E71E0D5279C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760B01C8-5E75-489A-BAE1-0E71E0D5279C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760B01C8-5E75-489A-BAE1-0E71E0D5279C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB55DD3-029C-4A83-BEA2-A7021CC51054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB55DD3-029C-4A83-BEA2-A7021CC51054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB55DD3-029C-4A83-BEA2-A7021CC51054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB55DD3-029C-4A83-BEA2-A7021CC51054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5025EB-FCCD-4DAE-B9B4-3DD95F3887F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5025EB-FCCD-4DAE-B9B4-3DD95F3887F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5025EB-FCCD-4DAE-B9B4-3DD95F3887F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5025EB-FCCD-4DAE-B9B4-3DD95F3887F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

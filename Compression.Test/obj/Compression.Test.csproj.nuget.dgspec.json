@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wayne\\code\\School\\DataStructuresAndAlgorithsm\\compression_project\\test\\test.csproj": {}
+    "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\Compression.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wayne\\code\\School\\DataStructuresAndAlgorithsm\\compression_project\\test\\test.csproj": {
+    "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\Compression.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wayne\\code\\School\\DataStructuresAndAlgorithsm\\compression_project\\test\\test.csproj",
-        "projectName": "test",
-        "projectPath": "C:\\Users\\wayne\\code\\School\\DataStructuresAndAlgorithsm\\compression_project\\test\\test.csproj",
-        "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wayne\\code\\School\\DataStructuresAndAlgorithsm\\compression_project\\test\\obj\\",
+        "projectUniqueName": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\Compression.Test.csproj",
+        "projectName": "Compression.Test",
+        "projectPath": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\Compression.Test.csproj",
+        "packagesPath": "C:\\Users\\abele\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +42,12 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[17.6.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -50,7 +55,7 @@
             },
             "NUnit.Analyzers": {
               "target": "Package",
-              "version": "[3.3.0, )"
+              "version": "[3.6.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
@@ -58,7 +63,7 @@
             },
             "coverlet.collector": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -77,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.115\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,4 @@
-namespace test;
+namespace Compression.Test;
 
 public class Tests
 {

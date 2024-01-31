@@ -74,4 +74,26 @@ public class CompressorHelper
         }
         return maxLength;
     }
+    public static int FindBiggestRepeat(string code)
+    {
+        int checkLength = 2;
+        Console.WriteLine(code.Length);
+        if (code.Length <= 3)
+        {
+            return 0;
+        }
+        string currentChunk = code.Substring(0, checkLength);
+        string uncheckedRepeats = code.Substring(checkLength, code.Length - checkLength);
+        if (!uncheckedRepeats.Contains(currentChunk))
+        {
+            return 0;
+        }
+        while (uncheckedRepeats.Contains(currentChunk))
+        {
+            checkLength++;
+            currentChunk = code.Substring(0, checkLength);
+            uncheckedRepeats = code.Substring(checkLength, code.Length - checkLength);
+        }
+        return checkLength - 1;
+    }
 }

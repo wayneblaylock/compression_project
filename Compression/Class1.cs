@@ -56,20 +56,22 @@ public class CompressorHelper
     public static int FindBiggest(string bits){
         int maxLength = 0;
         int length = 2;
-        for (int i = length; i < bits.Length - length + 2; i++){
+        for (int i = length; i < bits.Length - length + 1; i++){
             bool lengthWorks = true;
             for (int j = 0; j < length; j++){
-                Console.WriteLine($"{j}:{bits[j]}  {i+j}:{bits[i+j]}");
+                Console.WriteLine($"{j}=>{bits[j]}  {i+j}=>{bits[i+j]}");
                 // Console.WriteLine($"{bits[j]}, {bits[i+j]}");
                 if (bits[j] != bits[i+j]) {
                     lengthWorks = false;
                     Console.WriteLine("reset");
                     break;
                     }
-                }
+            }
             if (lengthWorks) {
                 maxLength = length;
+                Console.WriteLine($"Max Length updated to {maxLength}");
                 length ++;
+                i = length;
             }
         }
         return maxLength;

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\compression_project\\Compression\\Compression.csproj": {}
+    "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\compression_project\\Compression\\Compression.csproj": {
+    "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\compression_project\\Compression\\Compression.csproj",
+        "projectUniqueName": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj",
         "projectName": "Compression",
-        "projectPath": "C:\\Users\\user\\compression_project\\Compression\\Compression.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\compression_project\\Compression\\obj\\",
+        "projectPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj",
+        "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.115\\RuntimeIdentifierGraph.json"
         }
       }
     }

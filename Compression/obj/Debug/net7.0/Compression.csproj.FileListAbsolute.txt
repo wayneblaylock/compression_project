@@ -22,3 +22,15 @@ C:\Users\abele\code\DataStructures-And-Algorithms\compression_project\Compressio
 C:\Users\abele\code\DataStructures-And-Algorithms\compression_project\Compression\obj\Debug\net7.0\refint\Compression.dll
 C:\Users\abele\code\DataStructures-And-Algorithms\compression_project\Compression\obj\Debug\net7.0\Compression.pdb
 C:\Users\abele\code\DataStructures-And-Algorithms\compression_project\Compression\obj\Debug\net7.0\ref\Compression.dll
+C:\Users\user\compression_project\Compression\bin\Debug\net7.0\Compression.deps.json
+C:\Users\user\compression_project\Compression\bin\Debug\net7.0\Compression.dll
+C:\Users\user\compression_project\Compression\bin\Debug\net7.0\Compression.pdb
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.csproj.AssemblyReference.cache
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.AssemblyInfoInputs.cache
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.AssemblyInfo.cs
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.csproj.CoreCompileInputs.cache
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.dll
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\refint\Compression.dll
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\Compression.pdb
+C:\Users\user\compression_project\Compression\obj\Debug\net7.0\ref\Compression.dll

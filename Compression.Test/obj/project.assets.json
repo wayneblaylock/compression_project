@@ -1002,34 +1002,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wayne\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression.Test\\Compression.Test.csproj",
+      "projectUniqueName": "C:\\Users\\user\\compression_project\\Compression.Test\\Compression.Test.csproj",
       "projectName": "Compression.Test",
-      "projectPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression.Test\\Compression.Test.csproj",
-      "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression.Test\\obj\\",
+      "projectPath": "C:\\Users\\user\\compression_project\\Compression.Test\\Compression.Test.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\compression_project\\Compression.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj": {
-              "projectPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj"
+            "C:\\Users\\user\\compression_project\\Compression\\Compression.csproj": {
+              "projectPath": "C:\\Users\\user\\compression_project\\Compression\\Compression.csproj"
             }
           }
         }
@@ -1081,7 +1079,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.115\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

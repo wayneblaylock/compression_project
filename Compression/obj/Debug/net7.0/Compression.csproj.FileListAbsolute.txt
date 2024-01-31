@@ -1,0 +1,12 @@
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\bin\Debug\net7.0\Compression.deps.json
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\bin\Debug\net7.0\Compression.dll
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\bin\Debug\net7.0\Compression.pdb
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.csproj.AssemblyReference.cache
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.AssemblyInfoInputs.cache
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.AssemblyInfo.cs
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.csproj.CoreCompileInputs.cache
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.dll
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\refint\Compression.dll
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\Compression.pdb
+C:\Users\wayne\Code\School\DataStructuresAndAlgorithsm\compression_project\compression_project\Compression\obj\Debug\net7.0\ref\Compression.dll

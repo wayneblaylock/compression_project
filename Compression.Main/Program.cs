@@ -1,3 +1,3 @@
 ﻿using Compression;
 
-GenerateString.GetString(10);
+CompressorHelper.FindBiggest("1011101");

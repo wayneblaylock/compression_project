@@ -1,4 +1,6 @@
-﻿namespace Compression;
+﻿using System.Security.AccessControl;
+
+namespace Compression;
 
 public class Compressor : IBitStringCompressor
 {
@@ -28,27 +30,48 @@ public class GenerateString
 
 public class CompressorHelper
 {
-    public static int FindBiggest(string binaryString)
-    {
-        int maxLength = 0;
-        int length = 1;
+    // public static int FindBiggest(string binaryString)
+    // {
+    //     int maxLength = 0;
+    //     int length = 1;
 
-        for (int i = 1; i < binaryString.Length; i++)
-        {
-            if (binaryString[i] == binaryString[i - 1])
-            {
-                length++;
-                if (length > maxLength)
-                {
-                    maxLength = length;
+    //     for (int i = 1; i < binaryString.Length; i++)
+    //     {
+    //         if (binaryString[i] == binaryString[i - 1])
+    //         {
+    //             length++;
+    //             if (length > maxLength)
+    //             {
+    //                 maxLength = length;
+    //             }
+    //         }
+    //         else
+    //         {
+    //             length = 1;
+    //         }
+    //     }
+
+    //     return maxLength;
+    // }
+    public static int FindBiggest(string bits){
+        int maxLength = 0;
+        int length = 2;
+        for (int i = length; i < bits.Length - length + 2; i++){
+            bool lengthWorks = true;
+            for (int j = 0; j < length; j++){
+                Console.WriteLine($"{j}:{bits[j]}  {i+j}:{bits[i+j]}");
+                // Console.WriteLine($"{bits[j]}, {bits[i+j]}");
+                if (bits[j] != bits[i+j]) {
+                    lengthWorks = false;
+                    Console.WriteLine("reset");
+                    break;
+                    }
                 }
-            }
-            else
-            {
-                length = 1;
+            if (lengthWorks) {
+                maxLength = length;
+                length ++;
             }
         }
-
         return maxLength;
     }
 }

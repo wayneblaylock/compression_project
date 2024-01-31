@@ -1002,19 +1002,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wayne\\.nuget\\packages\\": {}
+    "C:\\Users\\abele\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression.Test\\Compression.Test.csproj",
+      "projectUniqueName": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\Compression.Test.csproj",
       "projectName": "Compression.Test",
-      "projectPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression.Test\\Compression.Test.csproj",
-      "packagesPath": "C:\\Users\\wayne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression.Test\\obj\\",
+      "projectPath": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\Compression.Test.csproj",
+      "packagesPath": "C:\\Users\\abele\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1022,14 +1027,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj": {
-              "projectPath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj"
+            "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression\\Compression.csproj": {
+              "projectPath": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression\\Compression.csproj"
             }
           }
         }
@@ -1076,12 +1082,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.115\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gJ6QqHJpiUX7Swt0hWO5Tw+D8hndsdatIY/OWXw96hUk10uf6uq1jrc5rAhLmc0mQS2ZkaV1lewpJbnx0mZBSA==",
+  "dgSpecHash": "FKBMkMF4p225SJp+/RprYqjO1cYPuIHC9bmvf833Efa5WRXLv+fmtI8vAxyb0VVnijCNLLD6+3wooY+q3BPk+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wayne\\Code\\School\\DataStructuresAndAlgorithsm\\compression_project\\compression_project\\Compression\\Compression.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\abele\\code\\DataStructures-And-Algorithms\\compression_project\\Compression\\Compression.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abele\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\abele\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\abele\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

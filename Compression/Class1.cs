@@ -54,7 +54,8 @@ public class CompressorHelper
     public static int FindBiggestRepeat(string code)
     {
         int checkLength = 2;
-        if (code.Length <= 2)
+        Console.WriteLine(code.Length);
+        if (code.Length <= 3)
         {
             return 0;
         }

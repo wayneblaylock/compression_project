@@ -8,12 +8,14 @@ public class Tests
     }
 
     [Test]
-    public void FindBiggest()
+    public void FindBiggest2()
     {
-        // Assert.That(CompressorHelper.FindBiggest("11"), Is.EqualTo(1));
-        Assert.That(CompressorHelper.FindBiggestRepeat("1"), Is.EqualTo(0));
-        // Assert.That(CompressorHelper.FindBiggest("100"), Is.EqualTo(0));
-        Assert.That(CompressorHelper.FindBiggestRepeat("1011101"), Is.EqualTo(3));
+        // Assert.That(CompressorHelper.FindBiggest("101011"), Is.EqualTo(2));
+        Assert.AreEqual(2, CompressorHelper.FindBiggestRepeat("1010"));
+        Assert.AreEqual(5, CompressorHelper.FindBiggestRepeat("1010010100"));
+        Assert.AreEqual(3, CompressorHelper.FindBiggestRepeat("1010101"));
+        Assert.AreEqual(6, CompressorHelper.FindBiggestRepeat("101000101000"));
+
     }
 
     // [Test]

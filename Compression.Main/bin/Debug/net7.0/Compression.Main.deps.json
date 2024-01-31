@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Compression.Main/1.0.0": {
+        "dependencies": {
+          "Compression": "1.0.0"
+        },
+        "runtime": {
+          "Compression.Main.dll": {}
+        }
+      },
+      "Compression/1.0.0": {
+        "runtime": {
+          "Compression.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Compression.Main/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Compression/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

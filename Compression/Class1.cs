@@ -7,7 +7,6 @@ public class Compressor : IBitStringCompressor{
     public static string Decompression(){
         return "hello";
         }
-    public static 
 }
 
 public class GenerateString{

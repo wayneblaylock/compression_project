@@ -11,9 +11,8 @@ public class Tests
     public void FindBiggest()
     {
         Assert.That(CompressorHelper.FindBiggest("1"), Is.EqualTo((0,0)));
-        Assert.That(CompressorHelper.FindBiggest("1010"), Is.EqualTo((2,2)));
-        Assert.That(CompressorHelper.FindBiggest("100"), Is.EqualTo((0,0)));
-        Assert.That(CompressorHelper.FindBiggest("1011101"), Is.EqualTo((3,4)));
+        Assert.That(CompressorHelper.FindBiggest("10101010"), Is.EqualTo((4,4)));
+        Assert.That(CompressorHelper.FindBiggest("10000000010000"), Is.EqualTo((5,9)));
 
     }
 

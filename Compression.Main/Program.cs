@@ -8,7 +8,7 @@
 // string compressedBits = CompressorHelper.CompressString(bits, instructions);
 // Console.WriteLine(compressedBits);
 
-string bits = GenerateString.GetString(250);
+string bits = GenerateString.GetString(10000);
 Console.WriteLine("Original:");
 Console.WriteLine(bits + "\n");
 (string compressed, List<(int,int)> instructions) output = Compressor.Compression(bits);

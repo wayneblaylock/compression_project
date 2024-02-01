@@ -59,7 +59,7 @@ public class CompressorHelper
     public static (int, int) FindBiggest(string bits){
         int maxLength = 0;
         int maxLengthStart = 0;
-        int length = 2;
+        int length = 4;
         for (int i = length; i < bits.Length - length + 1; i++){
             bool lengthWorks = true;
             for (int j = 0; j < length; j++){

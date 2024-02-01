@@ -1,22 +1,48 @@
-﻿using System.Security.AccessControl;
+﻿using System.Numerics;
+using System.Security.AccessControl;
 
 namespace Compression;
 
 public class Compressor : IBitStringCompressor
 {
-    public static string Compression()
-    {
-        return "hello";
+    public static (string, List<(int, int)>) Compression(string bits){
+        List<(int,int)> instructions = new List<(int, int)>();
+        while (true){
+            (int length,int start) instruction = CompressorHelper.FindBiggest(bits);
+            //if (instruction.length < 2) break;
+            if (instruction.length == 0){
+                instruction = (0,(int)char.GetNumericValue(bits[0]));
+                //Console.WriteLine($"{instruction}   {bits}");
+                instructions.Insert(0, instruction);
+                bits = bits.Substring(1);
+            }
+            else{
+                //Console.WriteLine($"{instruction}   {bits}");
+                instructions.Insert(0,instruction);
+                bits = CompressorHelper.CompressString(bits, instruction);
+            }
+            if (bits.Length < 10) break;
+        }
+        return (bits, instructions);
+
     }
-    public static string Decompression()
-    {
-        return "hello";
+    public static string Decompression(string bits, List<(int length, int start)> instructions){
+        for (int i = 0; i < instructions.Count; i++){
+            (int length, int start) instruction = instructions[i];
+            if (instruction.length == 0){
+                bits = instruction.start.ToString() + bits;
+            }
+            else{
+                bits = bits.Substring(0, instruction.start) + bits.Substring(0, instruction.length) + bits.Substring(instruction.start);
+            }
+        }
+        return bits;
     }
 }
 
 public class GenerateString
 {
-    public static void GetString(int length)
+    public static string GetString(int length)
     {
         Random random = new Random();
         string randstring = "";
@@ -24,78 +50,39 @@ public class GenerateString
         {
             randstring += random.Next(0, 2);
         }
-        Console.WriteLine(randstring);
+        return randstring;
     }
 }
 
 public class CompressorHelper
 {
-    // public static int FindBiggest(string binaryString)
-    // {
-    //     int maxLength = 0;
-    //     int length = 1;
-
-    //     for (int i = 1; i < binaryString.Length; i++)
-    //     {
-    //         if (binaryString[i] == binaryString[i - 1])
-    //         {
-    //             length++;
-    //             if (length > maxLength)
-    //             {
-    //                 maxLength = length;
-    //             }
-    //         }
-    //         else
-    //         {
-    //             length = 1;
-    //         }
-    //     }
-
-    //     return maxLength;
-    // }
-    public static int FindBiggest(string bits){
+    public static (int, int) FindBiggest(string bits){
         int maxLength = 0;
+        int maxLengthStart = 0;
         int length = 2;
         for (int i = length; i < bits.Length - length + 1; i++){
             bool lengthWorks = true;
             for (int j = 0; j < length; j++){
-                Console.WriteLine($"{j}=>{bits[j]}  {i+j}=>{bits[i+j]}");
-                // Console.WriteLine($"{bits[j]}, {bits[i+j]}");
+                // Console.WriteLine($"{j}=>{bits[j]}  {i+j}=>{bits[i+j]}");
                 if (bits[j] != bits[i+j]) {
                     lengthWorks = false;
-                    Console.WriteLine("reset");
+                    //Console.WriteLine("reset");
                     break;
                     }
             }
             if (lengthWorks) {
                 maxLength = length;
-                Console.WriteLine($"Max Length updated to {maxLength}");
+                maxLengthStart = i;
+                //Console.WriteLine($"Max Length updated to {maxLength} and Start to {maxLengthStart}");
                 length ++;
                 i = length;
             }
         }
-        return maxLength;
+        return (maxLength, maxLengthStart);
     }
-    public static int FindBiggestRepeat(string code)
-    {
-        int checkLength = 2;
-        Console.WriteLine(code.Length);
-        if (code.Length <= 3)
-        {
-            return 0;
-        }
-        string currentChunk = code.Substring(0, checkLength);
-        string uncheckedRepeats = code.Substring(checkLength, code.Length - checkLength);
-        if (!uncheckedRepeats.Contains(currentChunk))
-        {
-            return 0;
-        }
-        while (uncheckedRepeats.Contains(currentChunk))
-        {
-            checkLength++;
-            currentChunk = code.Substring(0, checkLength);
-            uncheckedRepeats = code.Substring(checkLength, code.Length - checkLength);
-        }
-        return checkLength - 1;
+
+    public static string CompressString(string bits, (int length, int start) instructions){
+        string CompressedString = bits.Substring(0, instructions.start) + bits.Substring(instructions.start + instructions.length);
+        return CompressedString;
     }
 }
